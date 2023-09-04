@@ -27,7 +27,7 @@ img {
 }
 
 .opening-message {
-    background-color: lightgray;
+    background-color: rgb(238, 236, 236);
     font-weight: bold;
     padding: 7vh;
     
@@ -62,6 +62,7 @@ form {
 label {
     display: block;
     margin-bottom: 0.5vh;
+    font-size: 1vw;
 }
 
 input {
@@ -73,4 +74,30 @@ input {
 
 .form-header {
     font-size: 2vw;
+}
+
+footer{
+    background-color: lightgrey;
+    height:25vh;
+    position: absolute;
+    bottom:0;
+    width: 66.66%;
+}
+
+.footer-content {
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+button{
+    color: white;
+    background-color: #596D48;
+    border-radius: 3px;
+    padding:0.5vw;
+    cursor: pointer;
+}
+
+.login{
+    color: #596D48;
+    cursor: pointer;
 }
