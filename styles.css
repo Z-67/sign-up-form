@@ -23,10 +23,54 @@ img {
     height: 100%;
     display: flex; /* Make it a flex container to control text position */
     flex-direction: column; /* Stack text vertically by default */
+    justify-content: flex-start;
 }
 
 .opening-message {
     background-color: lightgray;
     font-weight: bold;
-    padding: 10vh;
+    padding: 7vh;
+    
+}
+
+.form-section {
+    height: 35%;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    
+}
+
+
+/* Style for the form rows and columns */
+.form-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3vh;
+}
+
+.form-column {
+    flex: 1;
+    margin-right: 3vh;
+}
+
+/* Style for labels and inputs */
+
+form {
+    margin-top: 2vh;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5vh;
+}
+
+input {
+    width: 20vw;
+    padding: 0.5vw;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-header {
+    font-size: 2vw;
 }
