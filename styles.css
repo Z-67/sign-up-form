@@ -18,9 +18,19 @@ body, html {
     height: 100%;
   }
 
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    top: 20vh;  
+    width:33.33%;
+    height:20%;
+    
+}
+
 .logo{
     position: absolute; /* Position the logo element absolutely within the container */
-    width:12%;
+    width:10%;
     height:20%;
     top: 20vh; 
     left: 10vw; 
@@ -52,7 +62,6 @@ body, html {
 }
 
 
-/* Style for the form rows and columns */
 .form-row {
     display: flex;
     flex-direction: row;
@@ -64,7 +73,6 @@ body, html {
     margin-right: 3vh;
 }
 
-/* Style for labels and inputs */
 
 form {
     margin-top: 2vh;
@@ -73,7 +81,7 @@ form {
 label {
     display: block;
     margin-bottom: 0.5vh;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 input {
