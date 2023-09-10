@@ -44,17 +44,17 @@ body, html {
 .logo-caption {
     position: absolute;
     top: 25vh;
-    left: 20vw;
+    left: 19vw;
     color: #ffffff;
     font-size: 3.5vw ;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .content-container {
     width: 66.66%;
     height: 100%;
-    display: flex; /* Make it a flex container to control text position */
-    flex-direction: column; /* Stack text vertically by default */
+    display: flex; 
+    flex-direction: column;
     justify-content: flex-start;
 }
 
@@ -102,6 +102,15 @@ input {
     border-radius: 3px;
 }
 
+input[type="text"]:focus,
+input[type="password"]:focus, 
+input[type="email"]:focus,
+input[type="tel"]:focus  {
+    border-color: blue; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(4, 4, 12, 0.5);
+}
+
 .form-header {
     font-size: 2vw;
 }
@@ -130,6 +139,7 @@ button{
 .login{
     color: #596D48;
     cursor: pointer;
+    font-weight: bold;
 }
 
 
